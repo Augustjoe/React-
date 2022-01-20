@@ -34,11 +34,11 @@ export default class Admin extends Component {
             <LayoutLeft></LayoutLeft>
           </Sider>
           <Layout>
-            <Header style={{background:"#fff"}}>
+            <Header style={{background:"#fff",height:"80px"}}>
               <Layoutheader user={user}></Layoutheader>
             </Header>
 
-            <Content style={{margin:20}}>
+            <Content style={{margin:20,background:"#fff"}}>
               <Routes>
                 <Route path='/Pie' element={<Pie></Pie>} />
                 <Route path='/Line' element={<Line></Line>} />

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./header.less"
 
 export default class Layoutheader extends Component {
   render() {
@@ -12,7 +13,7 @@ export default class Layoutheader extends Component {
               <div className='headerBottomLeft'>首页</div>
               <div className='headerBottomRight'>
                 <span> 2019-5-16 10：12：36 </span>
-                <img src="" alt="暂无天气" />
+                <img src="" alt="" />
                 <span>晴</span>
               </div>
             </div>
